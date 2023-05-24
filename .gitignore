@@ -1,10 +1,14 @@
 # ignore everything by default
 *
 
-# exclude any git files
+# exclude any repository meta files
 !.git*
+!*README*
+!*LICENSE*
+
 # add exceptions for parent directories
 !/**/
+
 # add exceptions for the font file types we want
 !*.[TtOo][Tt][Ff]
 !*.[Ee][Oo][Tt]
