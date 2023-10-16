@@ -6,6 +6,9 @@
 !*README*
 !*LICENSE*
 
+# add explicit exceptions for submodules
+!/_extra/programmingfonts/
+
 # add exceptions for parent directories
 !/**/
 
